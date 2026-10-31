@@ -9,10 +9,11 @@
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/cinematic.css">
 </head>
-<body>
+<body class="cine">
 
 <header class="site-header">
   <div class="container nav">
@@ -38,113 +39,67 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Board</div>
-    <h1>Meet the Board</h1>
-    <p>This year's board and the students representing West High at every tournament.</p>
+<main>
+<section class="p-hero">
+  <div class="c-hero-bg"><img src="assets/img/web/team-lawn.jpg" alt="The team gathered together outdoors" style="object-position:50% 40%;"></div>
+  <div class="p-hero-inner">
+    <div class="p-crumb"><a href="index.html">Home</a> / Board</div>
+    <h1 class="c-title" aria-label="Meet the board">
+      <span class="line "><span>Meet the</span></span>
+      <span class="line line--outline"><span>board</span></span>
+    </h1>
+    <p class="p-hero-sub">This year's board and the students representing West High at every tournament.</p>
   </div>
 </section>
 
-<section class="section section--alt">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Student Leadership</span>
-      <h2>2026&ndash;2027 Board</h2>
-      <p>Selected each spring through an application process, our board runs practices, coordinates logistics, and mentors new members.</p>
+<section class="p-section">
+  <div class="c-wrap">
+    <div style="margin-bottom:56px;" data-rise>
+      <span class="c-eyebrow">Student Leadership</span>
+      <h2 class="c-h2">2026&ndash;2027 <span class="serif gold">Board.</span></h2>
+      <p class="c-lede">Selected each spring through an application process, our board runs practices, coordinates logistics, and mentors new members.</p>
     </div>
-    <div class="grid grid-2">
-      <div class="card person-card">
-        <div class="person-photo">C</div>
-        <h3>Natsuki Nawachi</h3>
-        <div class="person-role">Captain</div>
-        <p style="font-size:0.88rem;">Grade 12</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">CC</div>
-        <h3>Andrew Yang</h3>
-        <div class="person-role">Co-Captain</div>
-        <p style="font-size:0.88rem;">Grade 11</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">CC</div>
-        <h3>Jesica Wong</h3>
-        <div class="person-role">Co-Captain</div>
-        <p style="font-size:0.88rem;">Grade 11</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">HF</div>
-        <h3>Rithwin Rengarajan</h3>
-        <div class="person-role">Head of Finance</div>
-        <p style="font-size:0.88rem;">Grade 11</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">HB</div>
-        <h3>Timothy Vieira Lisboa</h3>
-        <div class="person-role">Head of Builds</div>
-        <p style="font-size:0.88rem;">Grade 10</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">HO</div>
-        <h3>Chloe Oh</h3>
-        <div class="person-role">Head of Outreach</div>
-        <p style="font-size:0.88rem;">Grade 10</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">HC</div>
-        <h3>Allen Lee</h3>
-        <div class="person-role">Head of Competitions</div>
-        <p style="font-size:0.88rem;">Grade 12</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">AC</div>
-        <h3>Eshi Srivastava</h3>
-        <div class="person-role">Assistant Head of Competitions</div>
-        <p style="font-size:0.88rem;">Grade 10</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">HS</div>
-        <h3>Yuma Maeda</h3>
-        <div class="person-role">Head of Study &amp; Labs</div>
-        <p style="font-size:0.88rem;">Grade 12</p>
-      </div>
-      <div class="card person-card">
-        <div class="person-photo">AS</div>
-        <h3>Vaidhik Jilla</h3>
-        <div class="person-role">Assistant Head of Study &amp; Labs</div>
-        <p style="font-size:0.88rem;">Grade 10</p>
-      </div>
+    <div class="p-grid p-grid--2">
+      <div class="p-person" data-rise><div class="ini">C</div><h3>Natsuki Nawachi</h3><div class="role">Captain</div><p>Grade 12</p></div>
+      <div class="p-person" data-rise><div class="ini">CC</div><h3>Andrew Yang</h3><div class="role">Co-Captain</div><p>Grade 11</p></div>
+      <div class="p-person" data-rise><div class="ini">CC</div><h3>Jesica Wong</h3><div class="role">Co-Captain</div><p>Grade 11</p></div>
+      <div class="p-person" data-rise><div class="ini">HF</div><h3>Rithwin Rengarajan</h3><div class="role">Head of Finance</div><p>Grade 11</p></div>
+      <div class="p-person" data-rise><div class="ini">HB</div><h3>Timothy Vieira Lisboa</h3><div class="role">Head of Builds</div><p>Grade 10</p></div>
+      <div class="p-person" data-rise><div class="ini">HO</div><h3>Chloe Oh</h3><div class="role">Head of Outreach</div><p>Grade 10</p></div>
+      <div class="p-person" data-rise><div class="ini">HC</div><h3>Allen Lee</h3><div class="role">Head of Competitions</div><p>Grade 12</p></div>
+      <div class="p-person" data-rise><div class="ini">AC</div><h3>Eshi Srivastava</h3><div class="role">Assistant Head of Competitions</div><p>Grade 10</p></div>
+      <div class="p-person" data-rise><div class="ini">HS</div><h3>Yuma Maeda</h3><div class="role">Head of Study &amp; Labs</div><p>Grade 12</p></div>
+      <div class="p-person" data-rise><div class="ini">AS</div><h3>Vaidhik Jilla</h3><div class="role">Assistant Head of Study &amp; Labs</div><p>Grade 10</p></div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Team in Action</span>
-      <h2>Moments from the season</h2>
-      <p>Photos from meetings, builds, and tournament day &mdash; added as we get them.</p>
+<section class="p-section p-section--alt">
+  <div class="c-wrap">
+    <div style="margin-bottom:48px;" data-rise>
+      <span class="c-eyebrow">Team in Action</span>
+      <h2 class="c-h2">Moments from the <span class="serif gold">season.</span></h2>
+      <p class="c-lede">Photos from meetings, builds, and tournament day &mdash; added as we get them.</p>
     </div>
-    <div class="grid grid-4">
-      <img src="assets/img/IMG_5790a.JPG" alt="Team members playing cards together at a tournament" class="photo-frame photo-frame--square">
-      <img src="assets/img/IMG_5960.jpeg" alt="Team members studying together under a tent at a tournament" class="photo-frame photo-frame--square">
-      <img src="assets/img/IMG_5961.jpeg" alt="Team members in lab coats in a school hallway" class="photo-frame photo-frame--square">
-      <img src="assets/img/IMG_6097.JPG" alt="Team members posing playfully outside" class="photo-frame photo-frame--square">
+    <div class="p-grid p-grid--4">
+      <div class="p-photo p-photo--tall" data-rise><img src="assets/img/web/cards.jpg" alt="Team members playing cards together at a tournament" loading="lazy"></div>
+      <div class="p-photo p-photo--tall" data-rise><img src="assets/img/web/tent.jpg" alt="Team members studying together under a tent at a tournament" loading="lazy"></div>
+      <div class="p-photo p-photo--tall" data-rise><img src="assets/img/web/labcoats.jpg" alt="Team members in lab coats in a school hallway" loading="lazy"></div>
+      <div class="p-photo p-photo--tall" data-rise><img src="assets/img/web/stairs.jpg" alt="Team members posing playfully outside" loading="lazy"></div>
     </div>
   </div>
 </section>
 
-<section class="section section--dark">
-  <div class="container">
-    <div class="cta-banner">
-      <div>
-        <h2>Want to help this team compete?</h2>
-        <p>Sponsorships cover tournament fees, materials, and travel for our 50-member roster.</p>
-      </div>
-      <a href="sponsors.html" class="btn btn-primary">Become a Sponsor</a>
+<section class="c-cta">
+  <div class="c-wrap">
+    <h2 class="c-h2" data-rise>Want to help this team <span class="serif gold">compete?</span></h2>
+    <p class="c-lede" data-rise>Sponsorships cover tournament fees, materials, and travel for our 50-member roster.</p>
+    <div class="actions" data-rise>
+      <a href="sponsors.html" class="c-btn c-btn--solid">Become a Sponsor</a>
     </div>
   </div>
 </section>
+</main>
 
 <footer class="site-footer">
   <div class="container">
@@ -190,6 +145,11 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cinematic.js"></script>
+
 </body>
 </html>

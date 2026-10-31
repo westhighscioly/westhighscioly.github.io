@@ -9,10 +9,11 @@
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/cinematic.css">
 </head>
-<body>
+<body class="cine">
 
 <header class="site-header">
   <div class="container nav">
@@ -38,81 +39,75 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Resources</div>
-    <h1>Resources</h1>
-    <p>Where our team goes to study, build, and stay current on official rules.</p>
+<main>
+<section class="p-hero">
+  <div class="c-hero-bg"><img src="assets/img/web/tent.jpg" alt="Team members studying together under a tent at a tournament" style="object-position:50% 45%;"></div>
+  <div class="p-hero-inner">
+    <div class="p-crumb"><a href="index.html">Home</a> / Resources</div>
+    <h1 class="c-title" aria-label="Study resources">
+      <span class="line "><span>Study</span></span>
+      <span class="line line--outline"><span>resources</span></span>
+    </h1>
+    <p class="p-hero-sub">Where our team goes to study, build, and stay current on official rules.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Official Sources</span>
-      <h2>Start here</h2>
-      <p>Always confirm event rules and dates against the official Science Olympiad organization before a tournament.</p>
+<section class="p-section">
+  <div class="c-wrap">
+    <div style="margin-bottom:56px;" data-rise>
+      <span class="c-eyebrow">Official Sources</span>
+      <h2 class="c-h2">Start <span class="serif gold">here.</span></h2>
+      <p class="c-lede">Always confirm event rules and dates against the official Science Olympiad organization before a tournament.</p>
     </div>
-    <div class="grid grid-3">
-      <div class="card">
-        <div class="icon-tile">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>
-        </div>
+    <div class="p-grid p-grid--3">
+      <a class="p-card p-link" href="https://www.soinc.org" target="_blank" rel="noopener" data-rise>
         <h3>Science Olympiad, Inc.</h3>
         <p>Official rules manuals, event lists, and national tournament information.</p>
-        <a href="https://www.soinc.org" target="_blank" rel="noopener">soinc.org &rarr;</a>
-      </div>
-      <div class="card">
-        <div class="icon-tile icon-tile--teal">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 9h.01M15 9h.01M8 15c1 1.2 2.4 2 4 2s3-.8 4-2"/></svg>
-        </div>
+        <span class="arrow">soinc.org &rarr;</span>
+      </a>
+      <a class="p-card p-link" href="https://scioly.org" target="_blank" rel="noopener" data-rise>
         <h3>Scioly.org Student Center</h3>
         <p>Community-run wiki with event write-ups, cheat sheets, and test archives built by Science Olympiad students nationwide.</p>
-        <a href="https://scioly.org" target="_blank" rel="noopener">scioly.org &rarr;</a>
-      </div>
-      <div class="card">
-        <div class="icon-tile icon-tile--gold">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v14"/></svg>
-        </div>
+        <span class="arrow">scioly.org &rarr;</span>
+      </a>
+      <a class="p-card p-link" href="https://www.socalscioly.org/" target="_blank" rel="noopener" data-rise>
         <h3>Southern California Science Olympiad</h3>
         <p>Regional and state tournament schedule, results, and event rules for our SoCal chapter &mdash; covers the LA Regional and State Tournament we compete in.</p>
-        <a href="https://www.socalscioly.org/" target="_blank" rel="noopener">socalscioly.org &rarr;</a>
-      </div>
+        <span class="arrow">socalscioly.org &rarr;</span>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="section section--alt">
-  <div class="container">
-    <div class="grid grid-2" style="align-items:center; gap:56px;">
-      <div>
-        <span class="eyebrow">Tools We Use</span>
-        <h2>Practice &amp; logistics tools</h2>
-        <ul style="padding-left:18px; color:var(--color-ink-700);">
-          <li><strong>Quizlet</strong> &mdash; flashcard sets for ID and vocab-heavy events</li>
-          <li><strong>Google Drive</strong> &mdash; shared binders, slides, and past tests</li>
-          <li><strong>Band</strong> &mdash; team announcements and practice scheduling</li>
-          <li><strong>Tournament host sites (e.g. Tabroom, Duosmium archives)</strong> &mdash; past tests and results</li>
-        </ul>
+<section class="p-section p-section--alt">
+  <div class="c-wrap p-split p-split--top">
+    <div data-rise>
+      <span class="c-eyebrow">Tools We Use</span>
+      <h2 class="c-h2" style="font-size:clamp(2rem,4.2vw,3.6rem);">Practice &amp; logistics <span class="serif gold">tools.</span></h2>
+      <div class="c-rows" style="margin-top:32px;">
+        <div class="c-row"><i>01</i><p><strong>Quizlet</strong> &mdash; flashcard sets for ID and vocab-heavy events</p></div>
+        <div class="c-row"><i>02</i><p><strong>Google Drive</strong> &mdash; shared binders, slides, and past tests</p></div>
+        <div class="c-row"><i>03</i><p><strong>Band</strong> &mdash; team announcements and practice scheduling</p></div>
+        <div class="c-row"><i>04</i><p><strong>Tournament host sites (e.g. Tabroom, Duosmium archives)</strong> &mdash; past tests and results</p></div>
       </div>
-      <div class="callout">
-        <strong>New to an event?</strong> Start with the official rules manual on soinc.org, then check Scioly.org for community write-ups and practice tests. Team members can find our study binders and past tests on the shared Drive &mdash; ask an officer for access.
-      </div>
+    </div>
+    <div class="p-card" data-rise style="padding:clamp(28px,4vw,52px);">
+      <h3>New to an event?</h3>
+      <p>Start with the official rules manual on soinc.org, then check Scioly.org for community write-ups and practice tests. Team members can find our study binders and past tests on the shared Drive &mdash; ask an officer for access.</p>
     </div>
   </div>
 </section>
 
-<section class="section section--dark">
-  <div class="container">
-    <div class="cta-banner">
-      <div>
-        <h2>Have a resource to share?</h2>
-        <p>Send study guides, past tests, or build documentation to the board so we can add them here for the whole team.</p>
-      </div>
-      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+<section class="c-cta">
+  <div class="c-wrap">
+    <h2 class="c-h2" data-rise>Have a resource to <span class="serif gold">share?</span></h2>
+    <p class="c-lede" data-rise>Send study guides, past tests, or build documentation to the board so we can add them here for the whole team.</p>
+    <div class="actions" data-rise>
+      <a href="contact.html" class="c-btn c-btn--solid">Contact Us</a>
     </div>
   </div>
 </section>
+</main>
 
 <footer class="site-footer">
   <div class="container">
@@ -158,6 +153,11 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cinematic.js"></script>
+
 </body>
 </html>

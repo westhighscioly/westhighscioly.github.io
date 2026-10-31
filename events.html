@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Events | West High Science Olympiad</title>
-<meta name="description" content="The 23 Science Olympiad events our West High team competes in, grouped by category: Life Science, Earth & Space, Physical Science, Technology & Engineering, and Inquiry.">
+<meta name="description" content="The 23 Science Olympiad events our West High team competes in, grouped by category: Life Science, Earth &amp; Space, Physical Science, Technology &amp; Engineering, and Inquiry.">
 <meta property="og:site_name" content="West High Science Olympiad">
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/cinematic.css">
 </head>
-<body>
+<body class="cine">
 
 <header class="site-header">
   <div class="container nav">
@@ -38,164 +39,100 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Events</div>
-    <h1>Our Events</h1>
-    <p>23 events across five categories. Every member competes in 2&ndash;3, paired with a teammate for most of the season.</p>
+<main>
+<section class="p-hero">
+  <div class="c-hero-bg"><img src="assets/img/web/wright.jpg" alt="Team members testing a Wright Stuff aircraft build" style="object-position:50% 55%;"></div>
+  <div class="p-hero-inner">
+    <div class="p-crumb"><a href="index.html">Home</a> / Events</div>
+    <h1 class="c-title" aria-label="Our events">
+      <span class="line "><span>Our</span></span>
+      <span class="line line--outline"><span>events</span></span>
+    </h1>
+    <p class="p-hero-sub">23 events across five categories. Every member competes in 2&ndash;3, paired with a teammate for most of the season.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-
-    <div class="callout" style="margin-bottom:48px;">
+<section class="p-section">
+  <div class="c-wrap">
+    <div class="p-callout" data-rise>
       <strong>Official 2026&ndash;27 Division C events</strong>, verified against the current list at <a href="https://www.soinc.org/events/2027-division-c-events" target="_blank" rel="noopener">soinc.org</a>. Full rules for each event are published there too.
     </div>
-
-    <div style="margin-bottom:56px;">
-      <span class="tag tag--green">Category 1</span>
-      <h2>Life, Personal &amp; Social Science</h2>
-      <p style="max-width:640px;">Events that dig into biology, medicine, and the human impact on ecosystems — mostly test-based with image and specimen identification.</p>
-      <div class="grid grid-3" style="margin-top:24px;">
-        <div class="card card--life">
-          <h3>Anatomy &amp; Physiology</h3>
-          <p>In-depth study of human body systems — this year's rotation typically covers 2&ndash;3 systems in detail.</p>
-        </div>
-        <div class="card card--life">
-          <h3>Botany</h3>
-          <p>Plant biology, physiology, and identification — from cellular structure to whole-plant classification.</p>
-        </div>
-        <div class="card card--life">
-          <h3>Designer Genes</h3>
-          <p>Genetics and biotechnology, from Mendelian inheritance to modern gene-editing techniques.</p>
-        </div>
-        <div class="card card--life">
-          <h3>Disease Detectives</h3>
-          <p>Epidemiology puzzle-solving: trace outbreaks, read study designs, and calculate risk statistics.</p>
-        </div>
-        <div class="card card--life">
-          <h3>Water Quality</h3>
-          <p>Aquatic ecosystems and water testing — chemical, biological, and physical indicators of water health.</p>
-        </div>
+    <div class="p-cat" style="--accent:#4cc38a;">
+      <div class="p-cat-head" data-rise>
+        <div class="num">01</div>
+        <div><h2>Life, Personal &amp; Social Science</h2><p>Events that dig into biology, medicine, and the human impact on ecosystems — mostly test-based with image and specimen identification.</p></div>
+      </div>
+      <div class="p-grid p-grid--3">
+        <div class="p-event" data-rise><h3>Anatomy &amp; Physiology</h3><p>In-depth study of human body systems — this year's rotation typically covers 2&ndash;3 systems in detail.</p></div>
+        <div class="p-event" data-rise><h3>Botany</h3><p>Plant biology, physiology, and identification — from cellular structure to whole-plant classification.</p></div>
+        <div class="p-event" data-rise><h3>Designer Genes</h3><p>Genetics and biotechnology, from Mendelian inheritance to modern gene-editing techniques.</p></div>
+        <div class="p-event" data-rise><h3>Disease Detectives</h3><p>Epidemiology puzzle-solving: trace outbreaks, read study designs, and calculate risk statistics.</p></div>
+        <div class="p-event" data-rise><h3>Water Quality</h3><p>Aquatic ecosystems and water testing — chemical, biological, and physical indicators of water health.</p></div>
       </div>
     </div>
-
-    <div style="margin-bottom:56px;">
-      <span class="tag">Category 2</span>
-      <h2>Earth &amp; Space Science</h2>
-      <p style="max-width:640px;">From the rock cycle to distant galaxies — these events reward students who love field science and astronomy.</p>
-      <div class="grid grid-3" style="margin-top:24px;">
-        <div class="card card--earth">
-          <h3>Astronomy</h3>
-          <p>Stellar evolution, deep-sky objects, and telescope data analysis using tools like DS9.</p>
-        </div>
-        <div class="card card--earth">
-          <h3>Dynamic Planet</h3>
-          <p>Rotating topic on Earth systems — glaciers, oceanography, or space weather, depending on the season.</p>
-        </div>
-        <div class="card card--earth">
-          <h3>Remote Sensing</h3>
-          <p>Interpret satellite and aerial imagery to analyze Earth's surface, weather, and land use.</p>
-        </div>
-        <div class="card card--earth">
-          <h3>Rocks &amp; Minerals</h3>
-          <p>Mineral properties, rock classification, and identification using real hand samples.</p>
-        </div>
+    <div class="p-cat" style="--accent:#f0b429;">
+      <div class="p-cat-head" data-rise>
+        <div class="num">02</div>
+        <div><h2>Earth &amp; Space Science</h2><p>From the rock cycle to distant galaxies — these events reward students who love field science and astronomy.</p></div>
+      </div>
+      <div class="p-grid p-grid--3">
+        <div class="p-event" data-rise><h3>Astronomy</h3><p>Stellar evolution, deep-sky objects, and telescope data analysis using tools like DS9.</p></div>
+        <div class="p-event" data-rise><h3>Dynamic Planet</h3><p>Rotating topic on Earth systems — glaciers, oceanography, or space weather, depending on the season.</p></div>
+        <div class="p-event" data-rise><h3>Remote Sensing</h3><p>Interpret satellite and aerial imagery to analyze Earth's surface, weather, and land use.</p></div>
+        <div class="p-event" data-rise><h3>Rocks &amp; Minerals</h3><p>Mineral properties, rock classification, and identification using real hand samples.</p></div>
       </div>
     </div>
-
-    <div style="margin-bottom:56px;">
-      <span class="tag tag--blue">Category 3</span>
-      <h2>Physical Science &amp; Chemistry</h2>
-      <p style="max-width:640px;">Lab-based events that mix conceptual physics and chemistry with hands-on measurement and problem-solving.</p>
-      <div class="grid grid-3" style="margin-top:24px;">
-        <div class="card card--physical">
-          <h3>Chemistry Lab</h3>
-          <p>Stoichiometry, titrations, and thermochemistry problems solved live at the lab bench.</p>
-        </div>
-        <div class="card card--physical">
-          <h3>Circuit Lab</h3>
-          <p>Circuit analysis and troubleshooting — building and diagnosing analog circuits under time pressure.</p>
-        </div>
-        <div class="card card--physical">
-          <h3>Forensics</h3>
-          <p>Analyze simulated crime-scene evidence using chemistry, chromatography, and trace analysis.</p>
-        </div>
-        <div class="card card--physical">
-          <h3>Hovercraft</h3>
-          <p>Design and build a hovercraft, then tune it to complete a precision course.</p>
-        </div>
-        <div class="card card--physical">
-          <h3>Protein Modeling</h3>
-          <p>Build physical models of protein structures to understand molecular biology and biochemistry.</p>
-        </div>
-        <div class="card card--physical">
-          <h3>Thermodynamics</h3>
-          <p>Heat, energy transfer, and thermal physics problems, from engines to everyday systems.</p>
-        </div>
+    <div class="p-cat" style="--accent:#4f9dff;">
+      <div class="p-cat-head" data-rise>
+        <div class="num">03</div>
+        <div><h2>Physical Science &amp; Chemistry</h2><p>Lab-based events that mix conceptual physics and chemistry with hands-on measurement and problem-solving.</p></div>
+      </div>
+      <div class="p-grid p-grid--3">
+        <div class="p-event" data-rise><h3>Chemistry Lab</h3><p>Stoichiometry, titrations, and thermochemistry problems solved live at the lab bench.</p></div>
+        <div class="p-event" data-rise><h3>Circuit Lab</h3><p>Circuit analysis and troubleshooting — building and diagnosing analog circuits under time pressure.</p></div>
+        <div class="p-event" data-rise><h3>Forensics</h3><p>Analyze simulated crime-scene evidence using chemistry, chromatography, and trace analysis.</p></div>
+        <div class="p-event" data-rise><h3>Hovercraft</h3><p>Design and build a hovercraft, then tune it to complete a precision course.</p></div>
+        <div class="p-event" data-rise><h3>Protein Modeling</h3><p>Build physical models of protein structures to understand molecular biology and biochemistry.</p></div>
+        <div class="p-event" data-rise><h3>Thermodynamics</h3><p>Heat, energy transfer, and thermal physics problems, from engines to everyday systems.</p></div>
       </div>
     </div>
-
-    <div style="margin-bottom:56px;">
-      <span class="tag" style="background:#f1e9fa; color:#8e5cc9;">Category 4</span>
-      <h2>Technology &amp; Engineering</h2>
-      <p style="max-width:640px;">Our build events — students design, test, and iterate devices for months before bringing them to competition.</p>
-      <div class="grid grid-3" style="margin-top:24px;">
-        <div class="card card--tech">
-          <h3>Boomilever</h3>
-          <p>Design a wood cantilevered structure to hold maximum load at minimum weight.</p>
-        </div>
-        <div class="card card--tech">
-          <h3>Electric Vehicle</h3>
-          <p>Engineer a battery-powered vehicle that stops as close as possible to a target distance.</p>
-        </div>
-        <div class="card card--tech">
-          <h3>Mission Possible</h3>
-          <p>Build a Rube Goldberg-style device that completes a chain of tasks within a time window.</p>
-        </div>
-        <div class="card card--tech">
-          <h3>Wright Stuff</h3>
-          <p>Design and fly a rubber-band powered balsa aircraft for maximum time aloft.</p>
-        </div>
+    <div class="p-cat" style="--accent:#b57bff;">
+      <div class="p-cat-head" data-rise>
+        <div class="num">04</div>
+        <div><h2>Technology &amp; Engineering</h2><p>Our build events — students design, test, and iterate devices for months before bringing them to competition.</p></div>
+      </div>
+      <div class="p-grid p-grid--3">
+        <div class="p-event" data-rise><h3>Boomilever</h3><p>Design a wood cantilevered structure to hold maximum load at minimum weight.</p></div>
+        <div class="p-event" data-rise><h3>Electric Vehicle</h3><p>Engineer a battery-powered vehicle that stops as close as possible to a target distance.</p></div>
+        <div class="p-event" data-rise><h3>Mission Possible</h3><p>Build a Rube Goldberg-style device that completes a chain of tasks within a time window.</p></div>
+        <div class="p-event" data-rise><h3>Wright Stuff</h3><p>Design and fly a rubber-band powered balsa aircraft for maximum time aloft.</p></div>
       </div>
     </div>
-
-    <div>
-      <span class="tag" style="background:#fbe7e2; color:#c9573f;">Category 5</span>
-      <h2>Inquiry &amp; Nature of Science</h2>
-      <p style="max-width:640px;">Events that test scientific reasoning and problem-solving skills that cut across every discipline.</p>
-      <div class="grid grid-3" style="margin-top:24px;">
-        <div class="card card--inquiry">
-          <h3>Codebusters</h3>
-          <p>Cryptography event covering classical and modern ciphers, solved by hand against the clock.</p>
-        </div>
-        <div class="card card--inquiry">
-          <h3>Engineering CAD</h3>
-          <p>Technical drawing and computer-aided design — read and produce precise engineering drawings.</p>
-        </div>
-        <div class="card card--inquiry">
-          <h3>Experimental Design</h3>
-          <p>Design, run, and analyze a real experiment from a mystery prompt handed out on the spot.</p>
-        </div>
-        <div class="card card--inquiry">
-          <h3>Ping-Pong Parachute</h3>
-          <p>Build a drop device that keeps a ping-pong ball airborne as long as possible.</p>
-        </div>
+    <div class="p-cat" style="--accent:#ff7a5c;">
+      <div class="p-cat-head" data-rise>
+        <div class="num">05</div>
+        <div><h2>Inquiry &amp; Nature of Science</h2><p>Events that test scientific reasoning and problem-solving skills that cut across every discipline.</p></div>
+      </div>
+      <div class="p-grid p-grid--3">
+        <div class="p-event" data-rise><h3>Codebusters</h3><p>Cryptography event covering classical and modern ciphers, solved by hand against the clock.</p></div>
+        <div class="p-event" data-rise><h3>Engineering CAD</h3><p>Technical drawing and computer-aided design — read and produce precise engineering drawings.</p></div>
+        <div class="p-event" data-rise><h3>Experimental Design</h3><p>Design, run, and analyze a real experiment from a mystery prompt handed out on the spot.</p></div>
+        <div class="p-event" data-rise><h3>Ping-Pong Parachute</h3><p>Build a drop device that keeps a ping-pong ball airborne as long as possible.</p></div>
       </div>
     </div>
-
   </div>
 </section>
 
-<section class="section section--alt">
-  <div class="container text-center">
-    <span class="eyebrow">Bring These Events to Life</span>
-    <h2>Every event takes materials, fees, and travel</h2>
-    <p style="max-width:560px; margin:0 auto 28px;">From Boomilever balsa wood to tournament registration, sponsorships help our team compete in all 23 events.</p>
-    <a href="sponsors.html" class="btn btn-ghost">Become a Sponsor</a>
+<section class="c-cta">
+  <div class="c-wrap">
+    <h2 class="c-h2" data-rise>Every event takes materials, fees, <span class="serif gold">and travel.</span></h2>
+    <p class="c-lede" data-rise>From Boomilever balsa wood to tournament registration, sponsorships help our team compete in all 23 events.</p>
+    <div class="actions" data-rise>
+      <a href="sponsors.html" class="c-btn c-btn--solid">Become a Sponsor</a>
+    </div>
   </div>
 </section>
+</main>
 
 <footer class="site-footer">
   <div class="container">
@@ -241,6 +178,11 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cinematic.js"></script>
+
 </body>
 </html>

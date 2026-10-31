@@ -9,10 +9,11 @@
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/cinematic.css">
 </head>
-<body>
+<body class="cine">
 
 <header class="site-header">
   <div class="container nav">
@@ -38,76 +39,62 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Sponsors</div>
-    <h1>Our Sponsors</h1>
-    <p>The businesses and families who help fund our season &mdash; tournament fees, materials, and travel for a 50-member team.</p>
+<main>
+<section class="p-hero p-hero--plain">
+  <div class="p-hero-inner">
+    <div class="p-crumb"><a href="index.html">Home</a> / Sponsors</div>
+    <h1 class="c-title" aria-label="Our sponsors">
+      <span class="line "><span>Our</span></span>
+      <span class="line line--gold"><span>sponsors</span></span>
+    </h1>
+    <p class="p-hero-sub">The businesses and families who help fund our season &mdash; tournament fees, materials, and travel for a 50-member team.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">2026&ndash;27 Sponsors</span>
-      <h2>Thank you to our supporters</h2>
-      <p>Thank you to the businesses backing the team this season.</p>
-    </div>
-    <div class="text-center" style="margin-bottom:40px;">
-      <span class="eyebrow">Gold Sponsors</span>
-      <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:32px 56px; margin-top:12px;">
-        <img src="assets/img/sponsors/id-med-logo.jpg" alt="ID MED logo" style="width:200px; max-width:100%;">
-        <img src="assets/img/sponsors/college-world-360-logo.png" alt="College World 360 logo" style="width:400px; max-width:100%;">
+<section class="p-section">
+  <div class="c-wrap">
+    <div class="p-sponsor-logos" data-rise>
+      <span class="c-eyebrow">2026&ndash;27 Gold Sponsors</span>
+      <h2 class="c-h2" style="font-size:clamp(1.8rem,3.4vw,3rem); color:var(--color-primary-900);">Thank you to our supporters.</h2>
+      <p style="color:var(--color-ink-700); margin:0 auto;">Thank you to the businesses backing the team this season.</p>
+      <div class="c-logos">
+        <img src="assets/img/sponsors/id-med-logo.jpg" alt="ID MED logo" style="width:200px;">
+        <img src="assets/img/sponsors/college-world-360-logo.png" alt="College World 360 logo" style="width:400px;">
       </div>
     </div>
-    <div class="text-center">
-      <p class="form-note">Interested in sponsoring? See the packet for tiers and benefits.</p>
-      <a href="sponsorship-packet.html" class="btn btn-ghost">View Sponsorship Packet</a>
+    <div class="p-center" style="margin-top:48px;" data-rise>
+      <p style="color:var(--cine-dim);">Interested in sponsoring? See the packet for tiers and benefits.</p>
+      <a href="sponsorship-packet.html" class="c-btn">View Sponsorship Packet</a>
     </div>
   </div>
 </section>
 
-<section class="section section--alt">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Why Sponsor Us</span>
-      <h2>What sponsorships fund</h2>
+<section class="p-section p-section--alt">
+  <div class="c-wrap">
+    <div class="p-center" style="margin-bottom:56px;" data-rise>
+      <span class="c-eyebrow">Why Sponsor Us</span>
+      <h2 class="c-h2">What sponsorships <span class="serif gold">fund.</span></h2>
     </div>
-    <ul class="announce-list" style="max-width:720px; margin:0 auto;">
-      <li>
-        <div class="announce-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4V8Z"/><path d="M13 6v12" stroke-dasharray="2 2"/></svg></div>
-        <p style="margin:0;"><strong>Tournament registration fees</strong> &mdash; entry costs for every invitational, regional, and state tournament we attend.</p>
-      </li>
-      <li>
-        <div class="announce-icon announce-icon--gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m14.7 6.3 3 3L8 19H5v-3L14.7 6.3Z"/><path d="m13 8 3 3"/><path d="M17.5 3.5a2.1 2.1 0 0 1 3 3l-1.5 1.5-3-3 1.5-1.5Z"/></svg></div>
-        <p style="margin:0;"><strong>Build materials</strong> &mdash; balsa wood, motors, circuit components, and other supplies for our engineering events.</p>
-      </li>
-      <li>
-        <div class="announce-icon announce-icon--teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 16V9a1 1 0 0 1 1-1h9l4 4h3a1 1 0 0 1 1 1v3"/><path d="M3 16h1M21 16h-1"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg></div>
-        <p style="margin:0;"><strong>Travel</strong> &mdash; transportation to tournaments across Southern California, from Temecula to San Diego.</p>
-      </li>
-      <li>
-        <div class="announce-icon announce-icon--purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 4 4 8l3 2-1 9h12l-1-9 3-2-4-4"/><path d="M8 4a4 4 0 0 0 8 0"/></svg></div>
-        <p style="margin:0;"><strong>Team gear</strong> &mdash; team shirts and supplies that help us travel and compete as one team.</p>
-      </li>
+    <ul class="p-fund">
+      <li data-rise><i>01</i><p><strong>Tournament registration fees</strong> &mdash; entry costs for every invitational, regional, and state tournament we attend.</p></li>
+      <li data-rise><i>02</i><p><strong>Build materials</strong> &mdash; balsa wood, motors, circuit components, and other supplies for our engineering events.</p></li>
+      <li data-rise><i>03</i><p><strong>Travel</strong> &mdash; transportation to tournaments across Southern California, from Temecula to San Diego.</p></li>
+      <li data-rise><i>04</i><p><strong>Team gear</strong> &mdash; team shirts and supplies that help us travel and compete as one team.</p></li>
     </ul>
   </div>
 </section>
 
-<section class="section section--dark">
-  <div class="container">
-    <div class="cta-banner">
-      <div>
-        <h2>Interested in sponsoring West High Science Olympiad?</h2>
-        <p>View our sponsorship packet for tier pricing and benefits, or reach out directly.</p>
-      </div>
-      <div style="display:flex; gap:12px; flex-wrap:wrap;">
-        <a href="sponsorship-packet.html" class="btn btn-ghost">View Sponsorship Packet</a>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
-      </div>
+<section class="c-cta">
+  <div class="c-wrap">
+    <h2 class="c-h2" data-rise>Interested in sponsoring West High <span class="serif gold">Science Olympiad?</span></h2>
+    <p class="c-lede" data-rise>View our sponsorship packet for tier pricing and benefits, or reach out directly.</p>
+    <div class="actions" data-rise>
+      <a href="sponsorship-packet.html" class="c-btn">View Sponsorship Packet</a>
+      <a href="contact.html" class="c-btn c-btn--solid">Contact Us</a>
     </div>
   </div>
 </section>
+</main>
 
 <footer class="site-footer">
   <div class="container">
@@ -153,6 +140,11 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cinematic.js"></script>
+
 </body>
 </html>

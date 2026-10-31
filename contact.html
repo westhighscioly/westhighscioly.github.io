@@ -9,10 +9,11 @@
 <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/cinematic.css">
 </head>
-<body>
+<body class="cine">
 
 <header class="site-header">
   <div class="container nav">
@@ -38,78 +39,67 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
-    <h1>Contact Us</h1>
-    <p>Questions about joining, sponsoring, or scheduling? We'd love to hear from you.</p>
+<main>
+<section class="p-hero p-hero--plain">
+  <div class="p-hero-inner">
+    <div class="p-crumb"><a href="index.html">Home</a> / Contact</div>
+    <h1 class="c-title" aria-label="Contact us">
+      <span class="line "><span>Contact</span></span>
+      <span class="line line--gold"><span>us</span></span>
+    </h1>
+    <p class="p-hero-sub">Questions about joining, sponsoring, or scheduling? We'd love to hear from you.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="grid grid-2" style="gap:56px; align-items:flex-start;">
-      <div>
-        <span class="eyebrow">Get In Touch</span>
-        <h2>Send us a message</h2>
-        <div class="form-card">
-          <form id="contact-form" action="https://formsubmit.co/westhighscienceolympiad@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="New message from westhighscioly.github.io">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="table">
-            <div class="form-row">
-              <label for="c-name">Name</label>
-              <input type="text" id="c-name" name="name" required>
-            </div>
-            <div class="form-row">
-              <label for="c-email">Email</label>
-              <input type="email" id="c-email" name="email" required>
-            </div>
-            <div class="form-row">
-              <label for="c-message">Message</label>
-              <textarea id="c-message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
-            <p id="form-note" class="form-note text-center" style="margin-top:14px;">We typically respond within a few school days.</p>
-          </form>
-        </div>
+<section class="p-section">
+  <div class="c-wrap p-split p-split--top">
+    <div data-rise>
+      <span class="c-eyebrow">Get In Touch</span>
+      <h2 class="c-h2" style="font-size:clamp(2rem,4.2vw,3.6rem);">Send us a <span class="serif gold">message.</span></h2>
+      <div class="p-card p-form" style="margin-top:32px;">
+        <form id="contact-form" action="https://formsubmit.co/westhighscienceolympiad@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from westhighscioly.github.io">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <div class="row"><label for="c-name">Name</label><input type="text" id="c-name" name="name" required></div>
+          <div class="row"><label for="c-email">Email</label><input type="email" id="c-email" name="email" required></div>
+          <div class="row"><label for="c-message">Message</label><textarea id="c-message" name="message" rows="5" required></textarea></div>
+          <button type="submit" class="c-btn c-btn--solid">Send Message</button>
+          <p id="form-note" class="form-note">We typically respond within a few school days.</p>
+        </form>
       </div>
-
-      <div>
-        <span class="eyebrow">Direct Contact</span>
-        <h2>Other ways to reach us</h2>
-        <div class="card" style="margin-bottom:20px;">
-          <h3>Email</h3>
-          <p><a href="mailto:westhighscienceolympiad@gmail.com">westhighscienceolympiad@gmail.com</a></p>
-        </div>
-        <div class="card" style="margin-bottom:20px;">
-          <h3>Location</h3>
-          <p>West High School<br>20401 Victor Street<br>Torrance, CA 90503</p>
-        </div>
-        <div class="card">
-          <h3>Support the Team</h3>
-          <p>We rely on donations and sponsorships from local businesses to cover tournament fees, materials, and travel. If your business would like to sponsor West High Science Olympiad, reach out using the form or email above.</p>
-        </div>
+    </div>
+    <div data-rise>
+      <span class="c-eyebrow">Direct Contact</span>
+      <h2 class="c-h2" style="font-size:clamp(2rem,4.2vw,3.6rem);">Other ways to <span class="serif gold">reach us.</span></h2>
+      <div class="p-stack" style="margin-top:32px;">
+        <div class="p-card"><h3>Email</h3><p><a href="mailto:westhighscienceolympiad@gmail.com">westhighscienceolympiad@gmail.com</a></p></div>
+        <div class="p-card"><h3>Location</h3><p>West High School<br>20401 Victor Street<br>Torrance, CA 90503</p></div>
+        <div class="p-card"><h3>Support the Team</h3><p>We rely on donations and sponsorships from local businesses to cover tournament fees, materials, and travel. If your business would like to sponsor West High Science Olympiad, reach out using the form or email above.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section section--alt">
-  <div class="container text-center">
-    <span class="eyebrow">Follow Along</span>
-    <h2>Stay in the loop</h2>
-    <p style="max-width:520px; margin:0 auto 20px;">Follow our season, build progress, and tournament results.</p>
-    <div class="social-row" style="justify-content:center; margin:0 auto;">
-      <a href="https://www.instagram.com/westhighscioly/" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon--instagram">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
-      </a>
-      <a href="https://www.youtube.com/@westhighschoolscienceolymp8738" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon--youtube">
-        <svg viewBox="0 0 24 24"><path fill="#fff" d="M10 8.5v7l6-3.5-6-3.5z"/></svg>
-      </a>
+<section class="p-section p-section--alt p-center">
+  <div class="c-wrap">
+    <span class="c-eyebrow" data-rise>Follow Along</span>
+    <h2 class="c-h2" data-rise>Stay in the <span class="serif gold">loop.</span></h2>
+    <p class="c-lede" data-rise>Follow our season, build progress, and tournament results.</p>
+    <div class="p-social" data-rise>
+      <div class="social-row" style="justify-content:center; margin:0 auto;">
+        <a href="https://www.instagram.com/westhighscioly/" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon--instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@westhighschoolscienceolymp8738" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon--youtube">
+          <svg viewBox="0 0 24 24"><path fill="#fff" d="M10 8.5v7l6-3.5-6-3.5z"/></svg>
+        </a>
+      </div>
     </div>
   </div>
 </section>
+
+</main>
 
 <footer class="site-footer">
   <div class="container">
@@ -155,6 +145,11 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/cinematic.js"></script>
+
 </body>
 </html>
