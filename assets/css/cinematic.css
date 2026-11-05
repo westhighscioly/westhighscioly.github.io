@@ -227,6 +227,8 @@ body.cine {
 .c-sponsors h2 { color: var(--color-primary-900); font-size: clamp(1.8rem, 3.4vw, 3rem); }
 .c-logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 36px 72px; margin: 36px 0 12px; }
 .c-logos img { max-width: 100%; }
+.c-eyebrow--tier { margin-top: 48px; }
+.c-logos--silver { margin-top: 20px; }
 .c-cta { position: relative; padding: clamp(110px, 22vh, 260px) 0; background: radial-gradient(90% 120% at 50% 120%, #123a63, var(--cine-bg) 70%); text-align: center; overflow: hidden; }
 .c-cta h2 { font-size: clamp(2.4rem, 7vw, 6.4rem); max-width: 14ch; margin: 0 auto 28px; }
 .c-cta .c-lede { margin: 0 auto 40px; }
